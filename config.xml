@@ -2,21 +2,22 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.travelpack.mobile"
-        versionCode = "10" 
-        version     = "1.0.0" >
-
-    <!-- versionCode is optional and Android only -->
+        version     = "0.0.2" >
 
     <name>Travelpack Mobile App</name>
 
     <description>
-        Flight, Hotels, Car Hire & Parking App 
+        Flight, Hotels, Car Hire Parking App 
     </description>
 
     <author href="https://www.travelpack.com" email="support@travelpack.com">
         Tim Bushell 
     </author>
+    
     <preference name="phonegap-version" value="3.1.0" />
     <icon src="icon.png" />
     
+    <gap:platform name="android" />
+    <access origin="*" />
+
 </widget>
